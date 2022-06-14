@@ -4,7 +4,7 @@ const app = express()
 
 
 
-const productos = require('./routers/productos.js')
+const productos = require('./src/routers/productos.js')
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
