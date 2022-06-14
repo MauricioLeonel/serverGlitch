@@ -12,7 +12,8 @@ app.use(express.urlencoded({extended: false}));
 // app.use(express.static(path.join(__dirname, 'publics')))
 
 app.use('/',productos.prod)
-app.use('/',productos.prodRan)
+
+// app.use('/',productos.prodRan)
 
 app.listen('8080',()=>{
 	console.log('todo ok')
